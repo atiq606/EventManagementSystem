@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Admin User",
+      "email": "admin@college.com",
+      "password": "admin123",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": "org-1",
+      "name": "Tech Club",
+      "email": "techclub@college.com",
+      "password": "org123",
+      "role": "organizer",
+      "active": true
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1",
+      "title": "Code Sprint 2024",
+      "description": "A 24-hour coding challenge for all students",
+      "category": "technical",
+      "organizerId": "org-1",
+      "date": "2024-04-15",
+      "time": "09:00",
+      "location": "Tech Lab, Building A",
+      "capacity": 100,
+      "registered": 45,
+      "status": "published",
+      "createdAt": "2024-03-20"
+    },
+    {
+      "id": "evt-2",
+      "title": "Cultural Fest",
+      "description": "Annual cultural celebration with music, dance, and drama",
+      "category": "cultural",
+      "organizerId": "org-1",
+      "date": "2024-04-20",
+      "time": "16:00",
+      "location": "Auditorium",
+      "capacity": 500,
+      "registered": 250,
+      "status": "published",
+      "createdAt": "2024-03-18"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "reg-1",
+      "eventId": "evt-1",
+      "name": "John Doe",
+      "email": "john@student.com",
+      "phone": "9876543210",
+      "registeredAt": "2024-03-25"
+    }
+  ]
+}
